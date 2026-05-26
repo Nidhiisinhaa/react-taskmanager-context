@@ -1,16 +1,19 @@
-# React + Vite
+# 🚀 React Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully functional Task Manager built using advanced React state management patterns.
 
-Currently, two official plugins are available:
+## 🔗 Live Deployment Link
+👉 **[Click Here to View the Live App on Vercel](https://your-project-name.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack & Concepts Used
+- **React Context API** (Global state management without prop drilling)
+- **useReducer Hook** (Clean action-based state modifications)
+- **Inline Styling** (Centered card structure with interactive UI transitions)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚡ Features Implemented
+1. **Task Summary:** Live counter tracking total and completed tasks.
+2. **Add Tasks:** Quick form insertion handling instant re-renders.
+3. **Edit Tasks:** Toggleable text inputs to rename existing tasks seamlessly.
+4. **Delete & Clear All:** Options to remove individual tasks or reset the complete database context with global action dispatches.
